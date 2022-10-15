@@ -1,6 +1,6 @@
 # Movie-Reservation-and-Recommendation-System
 
-Objective:
+## Objective:
 
 The project's goal is to develop a movie reservation and recommendation system
 that will make reservations for customers easier by giving them valuable information
@@ -20,7 +20,7 @@ performance, theaters can better allocate their resources.
 movie-watching preferences, which can be utilized to enhance the experience
 as a whole.
 
-Scope:
+## Scope:
 
 The system should be able to handle the following:
 
