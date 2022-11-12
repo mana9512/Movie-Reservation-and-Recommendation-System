@@ -151,21 +151,21 @@ print("Q2: ", qtwo)
 
 # Q3    What tweets have this user posted in the past 24 hours?
 anyUser = input("Enter user handle: ")
-now = datetime.today().now()
-prev = now-timedelta(days=1)
-now = datetime.strptime(str(now), "%Y-%m-%d %H:%M:%S")
-prev = datetime.strptime(str(prev), "%Y-%m-%d %H:%M:%S")
+now = datetime.now()
+prev = now + timedelta(days=-1)
+now = datetime.strftime(now, "%Y-%m-%d %H:%M:%S")
+prev = datetime.strftime(prev, "%Y-%m-%d %H:%M:%S")
 
 print("time------", type(prev), now)
 fetchThree = api.user_timeline(screen_name=anyUser, count=100)
 for tweet in fetchThree:
-    print(tweet.created_at)
-    print(tweet.created_at.date())
-    if(tweet.created_at > prev and tweet.created_at < now):
+    created_at_date = datetime.strftime(tweet.created_at, "%Y-%m-%d %H:%M:%S")
+    print(created_at_date)
+    if(created_at_date > prev and created_at_date < now):
         print("tweet in 24 hours")
         cursor.execute("insert into twitter_tweets (tweet_id, twitter_handle, twitter_text, profile_image_url, created_at, likes, retweet) values (%s, %s, %s, %s, %s, %s, %s);", (tweet.id, anyUser, tweet.text, tweet.user.profile_image_url_https, tweet.created_at, tweet.favorite_count, tweet.retweet_count))
-        cursor.commit()
-        print("---commited---")
+        connection.commit()
+        print(cursor.rowcount, "was inserted.")
     else:
         print("tweet not in 24 hours")
 qthree = cursor.execute("SELECT u.name, t.twitter_text, t.created_at FROM twitter_user as u INNER JOIN twitter_tweets as t ON u.twitter_handle = t.twitter_handle WHERE u.twitter_handle = %s and t.created_at BETWEEN %s AND %s", (anyUser, prev, now))
