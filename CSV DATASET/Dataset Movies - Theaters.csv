@@ -1,0 +1,579 @@
+Theater ID,Theater,City ID,No of Screens
+1,11D Adventureplex: Quest Mall,7,1
+2,24 Karat: Jogeshwari,8,2
+3,7D Adventure Plex: Mani Square Mall,7,0
+4,"7D Mastii: Element Mall, Nagwara",2,2
+5,"7D Mastiii: Forum Value Mall, Whitefield",2,2
+6,"7D Mastiii: TDI Mall, Rajouri Garden, Delhi",4,3
+7,"7D Voyage: Central Mall, Bellandur",2,2
+8,7D VR Voyage: Garuda Mall,2,2
+9,"AB Miniplex: Shivranjini Cross Road, Satellite",1,3
+10,Abhinay Theatre: Gandhi Nagar,2,0
+11,Abhishek Cineplex: Chandni Chowk,4,1
+12,Abirami Cinemas: Chennai,3,2
+13,"Agasthiya, T.H Road",3,4
+14,AGS Cinemas: T. Nagar,3,3
+15,AGS Cinemas: Villivakkam,3,0
+16,"Ajantha Theatre, Mattancherry Jetty",6,2
+17,"Akash Cinema, Kurla North",8,4
+18,Akash Cinemas (Rajeshwari Theatre): Laggere,2,3
+19,Alankar (Pratap Theatre): Langer House,5,1
+20,"Alankar Cinema, Ambewadi",8,1
+21,Albert Complex,3,0
+22,"Aleya Cinema, Ballygunge RS",7,3
+23,"Amar Theatre, Chembur",8,2
+24,Amba Cinema: Delhi,4,4
+25,Amba Theatre: Mehdipatnam,5,0
+26,Amber Cinema: Ahmedabad,1,2
+27,Amruth Theatre: Lingarajapuram,2,2
+28,"Anand Theatre, No-268",2,2
+29,Anjali Theatre: Secunderabad,5,2
+30,Anjan Digital 4K A/C Cinema: Magadi Road,2,3
+31,Anna Theatre: Chennai,3,2
+32,"Annai Karumari, Virugambakkam",3,1
+33,Anupam Cinema: Ahmedabad,1,0
+34,Anupama Theatre: Gandhinagar,2,4
+35,"Apsara Cinema, Behrampura",1,2
+36,"Aradhana Cinema, Behrampura",1,5
+37,Aradhna Theatre-Tarnaka,5,8
+38,Arjun 70MM: Kukatpally,5,1
+39,Aruna Theatre: Srirampuram,2,1
+40,Arvind Theatre A/C dts,3,0
+41,"Ascendas Park Square Mall, EPIP",2,2
+42,"Ashish Theatre, Chembur Extension",8,2
+43,Asian CineSquare Multiplex: Uppal,5,1
+44,Asian Ganga: Dilsukhnagar,5,3
+45,Asian GPR Multiplex: Kukatpally,5,2
+46,Asian Jyothi: RC Puram,5,1
+47,Asian Lakshmikala Cinepride: Moosapet,5,3
+48,Asian M Cube Mall: Attapur,5,2
+49,Asian Radhika Multiplex: ECIL,5,1
+50,Asian Sha: Chintal,5,1
+51,Asian Shahensha: Chintal,5,3
+52,Asian Shiva: Dilsukhnagar,5,3
+53,Asian Swapna 35mm: Katedan,5,3
+54,Asian Swapna 70mm: Katedan,5,3
+55,Asoka Cinema: Behala,7,2
+56,"ASR Cinemas, Madhuban Colony",5,4
+57,AVM Rajeswari A/C dts,3,1
+58,"Baby Albert Theatre, Whannels Road",3,2
+59,Bahar Cinema: Vile Parle (E),8,3
+60,"Bala Theatre, Anna Road",3,3
+61,Balaji Digital 2K Cinema: Tavarekere,2,4
+62,"Basusree, SP Mukherjee Road",7,2
+63,"Batra Cinema, Dr.Mukerjee Nagar",4,2
+64,Batra Reels Cinemas: New Friends Colony,4,1
+65,"Bhabani Cinema, Indrani Park",7,0
+66,"Bharat Chitra Mandir, Kurla North",8,1
+67,Bharat Cineplex: Kurla (W),8,2
+68,Bharath Theatre Dolby AtmosDolby Atmos,3,1
+69,"Bharathi Chitra Mandira, Dasarahalli",2,0
+70,Bhujanga 70MM: Jeedimetla,5,5
+71,Bhumika Digital 2K Cinema: Gandhinagar,2,2
+72,"Bijoli Cinema, Bhawanipore",7,3
+73,Bina Cinema - Kolkatta,7,3
+74,BR Hitech 70mm: Madhapur,5,2
+75,"Brahmarambha 70 Mm, Hyder nagar",5,2
+76,BVK Multiplex Vijayalakshmi: LB Nagar,5,1
+77,Carnival: Ameerpet,5,2
+78,"Carnival: Annex Mall, Borivali",8,5
+79,"Carnival: Dreams Mall, Bhandup",8,2
+80,"Carnival: Harmony Mall, Oshiwara",8,1
+81,Carnival: Himalaya Mall,1,3
+82,"Carnival: Huma, Kanjurmarg",8,2
+83,"Carnival: IMAX, Wadala",8,1
+84,"Carnival: Moviestar, Goregaon",8,0
+85,Carnival: Odeon Complex,4,0
+86,Carnival: R Mall Mulund,8,4
+87,Carnival: Rockline Mall,2,4
+88,"Carnival: Sangam, Andheri",8,2
+89,Casino Theatre: Chennai,3,4
+90,Cauvery Theatre: Sankey Road,2,1
+91,Central Plaza: Girgaon,8,0
+92,"Chabighar, Parsibagan",7,2
+93,Chandan Cinema: Juhu,8,2
+94,"Chandran Theatre, Ashoknagar",3,1
+95,Chandrodaya Digital 2K Cinema: Vidyapeeta Circle,2,1
+96,Chitra Cinema: Dadar (E),8,2
+97,Cine Town: Miyapur,5,3
+98,Cinemax: Andheri (E),8,3
+99,"Cinemax: Dev Arc, Ahmedabad",1,3
+100,Cinemax: Goregaon (W),8,2
+101,"Cinemax: Infiniti Mall, Malad (W)",8,3
+102,"Cinemax: Oberon, Kochi",6,0
+103,"Cinemax: R Odeon Mall, Ghatkopar (E)",8,5
+104,"Cinemax: Red Carpet, Ahmedabad",1,4
+105,"Cinemax: Shiv, Ahmedabad",1,2
+106,"Cinepolis: Acropolis Mall, Kolkata",7,2
+107,"Cinepolis: Alpha One Mall, Ahmedabad",1,0
+108,Cinepolis: Binnypet Mall,2,1
+109,"Cinepolis: CCPL Mall, Hyderabad",5,3
+110,"Cinepolis: Centre Square Mall, Kochi",6,3
+111,"Cinepolis: Cross River Mall, Mall, Shahdara",4,2
+112,"Cinepolis: Fun Republic Mall, Andheri (W)",8,2
+113,"Cinepolis: Lake Mall, Kolkata",7,2
+114,"Cinepolis: Magnet Mall, Bhandup (W)",8,3
+115,"Cinepolis: Manjeera Mall, Kukatpally",5,2
+116,"Cinepolis: Mantra Mall, Attapur",5,5
+117,"Cinepolis: Orion East Mall, Banaswadi",2,1
+118,Cinepolis: Royal Meenakshi Mall,2,3
+119,"Cinepolis: Unity One Mall Rohini, Delhi",4,3
+120,"Cinepolis: V3S Mall, Laxmi Nagar",4,1
+121,"Cinepolis: VIP Centre Square Mall, Kochi",6,1
+122,Cinesquare Savitha Theatre: Malleshwaram,2,1
+123,City Gold Satellite: Ahmedabad,1,3
+124,City Gold: Ashram Road,1,0
+125,City Gold: Bapunagar,1,2
+126,City Gold: Bopal,1,1
+127,City Gold: Motera,1,2
+128,Citylight Cinema: Mahim,8,3
+129,"Crown Cinema, Dharmatala",7,2
+130,"Darpana, Bidhan Sarani",7,1
+131,"Deepak Theatre, Mahatma Gandhi Road",2,3
+132,Delite Cinema: Asaf Ali Road,4,5
+133,Devi 70mm 4K & Dolby Atmos: RTC X Roads,5,0
+134,Devi Karumari A/C,3,3
+135,Devi Multiplex: Naroda,1,2
+136,Devicineplex,3,2
+137,"DT Cinemas: DLF Place, Saket",4,3
+138,DT Cinemas: Savitri Complex GK2,4,1
+139,"Edward Talkies, Kalbadevi",8,1
+140,Ega Cinema,3,2
+141,"Elite Cinema, Dharmatala",7,0
+142,"Ellora Cinema, Behala Municipal Market",7,3
+143,EROS Theatre,8,4
+144,Eshwari Digital 2K Cinema: Banashankari,2,2
+145,Everest Digital 2K Cinema: Frazer Town,2,1
+146,"Evm Cinema Studio, KSRTC Road",6,3
+147,EVM Kavitha Theatre 2K UFO: Ernakulam,6,2
+148,"Fame Shankarnag Chitramandira, Mahatma Gandhi Road",2,4
+149,"Fun Cinemas: K Star Mall, Chembur",8,1
+150,"Fun Cinemas: North Square Mall, Pitampura",4,1
+151,"Fun Cinemas: Sigma Mall, Bengaluru",2,2
+152,"Fun Cinemas: TDI Mall, Moti Nagar",4,2
+153,G3S Cinema: Rohini,4,0
+154,G7 Multiplex: Bandra (W),8,2
+155,Gagan Cinema: Delhi,4,1
+156,Galaxy Cinema: Toli Chowki,5,1
+157,Galaxy Paradise Screen 1: Bommanahalli Hosur Rd,2,2
+158,Galaxy Paradise: Screen 2,2,2
+159,"Galaxy, Station Road",1,1
+160,Ganapathy Ram Theatre: Chennai,3,0
+161,"Ganesh Theatre, Attur",2,3
+162,"Ganga Theatre, Chaithanyapuri Colony",5,4
+163,GK Cinemas 2K Dolby Atmos: Porur,3,3
+164,Glory Cinema: Mallepally,5,3
+165,Gokul 70MM: Erragadda,5,1
+166,Gold Cinema: Dadar (E),8,1
+167,Gold Cinema: Santacruz (W),8,2
+168,Gold Cinema: Sona Borivali (E),8,1
+169,"Gopalan Cinemas: Arcade Mall, Mysore Road",2,3
+170,Gopalan Cinemas: Bannerghatta Road,2,0
+171,Gopalan Grand Mall: Old Madras Road,2,3
+172,"Gopalan Miniplex: Signature Mall, Old Madras Road",2,3
+173,Goverdhan Theatre: Yeshwantpur,2,2
+174,"Gulshan Cinema, Ambewadi",8,4
+175,"Guru Siddeshwara Chitra Mandira, Anjanapura",2,3
+176,"Hanjar Cinema, Gandhi Ashram",1,1
+177,"Hans Cinema, G.T Karnal Road",4,2
+178,Hind INOX: Kolkata,7,2
+179,HMT Digital 4K Cinema: Jalahalli,2,4
+180,"Imperial Cinema Pvt Ltd., Ambewadi",8,3
+181,Indira Cinema: Kolkata,7,1
+182,Indra: Karmanghat,5,4
+183,Innovative Multiplex: Marathahalli,2,3
+184,INOX Eros One: Jangpura Extn,4,3
+185,"INOX Laserplex: CR2, Nariman Point",8,0
+186,"INOX Lido: Off MG Road, Ulsoor",2,0
+187,INOX National: Arcot Road,3,2
+188,INOX: Brookefield Mall,2,0
+189,"INOX: Central, JP Nagar, Mantri Junction",2,2
+190,"INOX: Chennai Citi Centre, Dr. RK Salai",3,0
+191,"INOX: Forum Mall, Elgin Road",7,2
+192,"INOX: Forum Neighbourhood Mall, Whitefield",2,2
+193,"INOX: Garuda Mall, Magrath Road",2,3
+194,"INOX: Garuda Swagath Mall, Jayanagar",2,1
+195,"INOX: GVK One, Banjara Hills",5,2
+196,INOX: Hiland Park,7,1
+197,"INOX: Inorbit Mall, Malad (W)",8,0
+198,"INOX: Maheshwari Parmeshwari Mall, Kachiguda",5,3
+199,"INOX: Mantri Square, Malleshwaram",2,0
+200,"INOX: Nakshatra Mall, Dadar (W)",8,3
+201,"INOX: Neelyog, Ghatkopar (E)",8,1
+202,INOX: Quest Mall,7,2
+203,INOX: Quest Mall (Insignia),7,0
+204,"INOX: R-City, Ghatkopar",8,3
+205,"INOX: Raghuleela Mall, Kandivali (W)",8,2
+206,"INOX: South City, Kolkata",7,3
+207,"INOX: Swabhumi, Maulana Azad Sarani",7,2
+208,"INOX: Thakur Movie, Kandivali (E)",8,1
+209,"Jagat, Sealdah",7,1
+210,"Jayalakshmi Talkies, Palluruthy",6,2
+211,Jothi Theatre 4K A/c DTS: ST Thomas Mount,3,0
+212,"Jyothy, PP Road",6,0
+213,K Sera Sera: SG Highway,1,1
+214,"Kalpana Cinema, Kurla North",8,2
+215,Kalyani Movie Max: Bowenpally,5,2
+216,Kamakya Cinema: Banashankari,2,0
+217,"Kamal Talkies, Garden Reach",7,2
+218,Kamala CinemasF&B;,3,2
+219,"Kamran Theatre, Kurla North",8,2
+220,"Kanoos Cinema, Panampilly Nagar",6,1
+221,Kapali Theatre: Gandhi Nagar,2,1
+222,Kasi4K Dolby Atmos,3,5
+223,Kasturba Cinema: Malad,8,1
+224,Keshava Theatre -,2,1
+225,"Khatoon Mahal, Garden Reach",7,1
+226,"Kings Cinema, Kurla North",8,2
+227,Konark: Dilsukhnagar,5,2
+228,"Krishnaveni, South Usman Raod",3,4
+229,"KSS Miniplex, Kurla North",8,3
+230,Kumar Theatre: Kachiguda,5,1
+231,Kumaran Theatre QUBE A/C DTS: Madipakkam,3,1
+232,Lakshmi Digital 4K Cinema: Tavarekere,2,0
+233,Lakshmi Kala Mandir: Alwal,5,1
+234,"Lakshmi Theatre, Dharmaram College",2,1
+235,"Lavanya, Sivan Chetty Gardens",2,3
+236,Le Reve (Globus): Bandra (W),8,2
+237,"Liberty Cinema, Beadon Street",7,2
+238,Liberty Cinema: Karol Bagh,4,4
+239,Liberty Cinema: Marine Lines,8,4
+240,London Paris: Mukti World Ballygunge,7,2
+241,Luxe Cinemas: Chennai,3,2
+242,M Cinemas: East of Kailash (Gold Class),4,5
+243,M2K: Pitampura,4,3
+244,M2K: Rohini,4,1
+245,"Mahalakshmi Talkies, Strahans Road",3,2
+246,Maharani Theatre 2K dts,3,2
+247,Maheshwari Digital 4K Cinema: Bannerghatta Road,2,6
+248,"Malancha Cinema, Netaji Nagar",7,2
+249,"Mallikarjuna 70 Mm, Hyder nagar",5,2
+250,Manasa Digital 4K Dolby Atmos: Konanakunte,2,2
+251,"Manasa Theatre, Doddakallasandra",2,2
+252,"Manikanta, Reddy Colony",5,3
+253,Manju Cinema: Kalasiguda,5,0
+254,Maratha Mandir: Mumbai Central,8,1
+255,Maxus Cinemas: Borivali (W),8,3
+256,Maxus Cinemas: Saki Naka,8,2
+257,"Mayur Cinema, Chittaranjan Avenue",7,2
+258,"Mayur Cinema, Subhash Lane",8,1
+259,"Mayura, Arakonam Road",3,3
+260,Megha Theatre: Dilsukhnagar,5,1
+261,Menaka Talkies: Gandhi Nagar,2,1
+262,Menoka Cinema: Kolkata,7,2
+263,Metro Cinema: Bahadurpura,5,4
+264,"Metro INOX Cinemas, Marine Lines",8,1
+265,"Milan Cineplex, Karampura",4,2
+266,"Minar Cinema, R.G.Kar Medical College",7,3
+267,"Mira Cinema, Bhairavnath Road",1,4
+268,Miraj Anupam Cinemas: Goregaon (E),8,3
+269,Miraj Cinemas Cine Pride: Krishna Nagar,1,2
+270,"Miraj Cinemas: Shalini Shivani, Hyderabad",5,3
+271,Miraj Cinemas: Subhash Nagar,4,5
+272,"Miraj Cinemas: Vitthal Plaza, New Naroda",1,2
+273,Miraj City Pulse: Ahmedabad,1,3
+274,Miraj Thakur Cinemas: Kandivali (E),8,2
+275,Mitra Cinema Hall: Kolkata,7,2
+276,MM Theatre,3,2
+277,"Mohan Theatre, Magadi Main Road",2,2
+278,"Moonlight Cinema, Chittaranjan Avenue",7,2
+279,"Moti Cinema, Ambewadi",8,2
+280,"Moti Cinema, Chandni Chowk",4,2
+281,Movie Land,2,1
+282,Movietime Star City: Matunga (W),8,1
+283,Movietime Suburbia: Bandra (W),8,2
+284,Movietime: Dahisar (E),8,3
+285,Movietime: Malad,8,0
+286,Movietime: Pitampura,4,3
+287,Movietime: Raja Garden,4,2
+288,"Movietime: The Hub, Goregaon",8,2
+289,Mukta A2 Cinemas: Abids,5,0
+290,"Mukta A2 Cinemas: Gulmohar Park Mall, Satellite Rd",1,2
+291,"Mukta A2 Cinemas: Jai Hind, Lalbaugh",8,3
+292,"Mukta A2 Cinemas: Topiwala, Goregaon",8,2
+293,Mukunda Dolby Atmos: M S Nagar,2,2
+294,Murali Gokula Digital 4K Cinema: Mathikere,2,0
+295,Murugan Cinemas - AmbatturDolby Atmos,3,2
+296,"N Lakshmi Chitra Mandira, B G Road",2,0
+297,Nadhamuni Cinema,3,1
+298,"Nagendra 70 Mm, Main Road",5,5
+299,Nagendra: Karmanghat,5,2
+300,"Nalanda Theatre, Mysore Road",2,3
+301,Nandi Cinema: National Library Road,8,0
+302,"Narendra Talkies, Arabic College",2,2
+303,Nartaki Theatre: Alwal,5,2
+304,Nartaki Theatre: Gandhi Nagar,2,1
+305,Nataraj Theatre: Sheshadripuram,2,2
+306,Natraj Cinema: Chembur,8,2
+307,Navina Cinema: Tollygunge,7,1
+308,Navrang Theatre: Rajaji Nagar,2,4
+309,"Netro, Dum Dum",7,1
+310,"New Empire Cinema, New Market",7,2
+311,New Excelsior Mukta A2 Cinemas: Fort,8,4
+312,"New Shirin Talkies, Agripada",8,2
+313,"Nishat Talkies, Falkland Road",8,1
+314,Padma Cinema Screen 1: Ernakulam,6,2
+315,Padma Cinema Screen 2: Ernakulam,6,0
+316,"Padma Theatre, Amruthahalli",2,3
+317,"Padmam, Poonamallee High Road",3,3
+318,"Padmasree Cinema, Jadavpore",7,4
+319,Padmavati Cinema: Kachiguda,5,2
+320,"Palace Talkies, V J B Udyan",8,0
+321,"Pandian, Moolakadai",3,4
+322,Paradise Cinema: Kolkata,7,2
+323,Paradise E-Square Cinema: Mahim,8,6
+324,Parimala Digital 2K Cinema: K.R.Market,2,3
+325,"Park Show House, Shakespeare Sarani",7,3
+326,Plaza Cinema: Dadar,8,2
+327,Poornima Theatre: J.C. Road,2,1
+328,"Prabhat Cinema, Barabazar",7,2
+329,Prachi Cinema: Kolkata,7,4
+330,Pradeep Theatre: K.R.Market,2,6
+331,Prasads: Hyderabad,5,2
+332,"Prasanna Theatre, Magadi Road",2,4
+333,Prashant Cinema: Secunderabad,5,0
+334,"Pratap Theatre, Gandhi Bhawan",5,2
+335,"Pratheeksha Theatre, Kumbalangi Road",6,0
+336,Premier Gold: Dongri,8,3
+337,Premiere Cinema: Dadar (E),8,4
+338,Priya Cinema: Rashbehari Avenue,7,2
+339,Priya Theatre: Malleypally,5,2
+340,Pushpanjali A/C Theatre: B.N. Pura,2,1
+341,"Pushpanjali Talkies, Dinnur Main Road",2,1
+342,"PVR Forum Sujana Mall: Kukatpally, Hyderabad",5,2
+343,PVR ICON: Versova,8,1
+344,PVR ICON: Versova (Gold),8,2
+345,PVR Promenade: Vasant Kunj,4,2
+346,"PVR: 3CS, Delhi",4,1
+347,"PVR: Acropolis, Ahmedabad",1,5
+348,"PVR: Ampa, Chennai",3,3
+349,"PVR: Anupam, Delhi",4,2
+350,"PVR: Arena Mahadevapura, Bengaluru",2,1
+351,"PVR: Arved Transcube, Ahmedabad",1,2
+352,"PVR: Citi Mall, Andheri (W)",8,0
+353,"PVR: Director's Cut, Ambience Delhi",4,2
+354,"PVR: Dynamix, Juhu",8,2
+355,"PVR: Forum Gold, Bengaluru",2,2
+356,"PVR: Forum, Bengaluru",2,3
+357,"PVR: Growel, Kandivali (E)",8,2
+358,"PVR: IMAX, VR Bengaluru, Whitefield",2,2
+359,"PVR: Inorbit, Cyberabad",5,2
+360,"PVR: Mani Square Mall, Kolkata",7,2
+361,"PVR: Market City (4DX), Bengaluru",2,2
+362,"PVR: Market City, Bengaluru",2,2
+363,"PVR: Market City, Kurla (4DX)",8,2
+364,"PVR: Market City, Kurla (Gold)",8,0
+365,"PVR: Market City, Kurla (Premiere)",8,5
+366,"PVR: Milap, Kandivali (W)",8,4
+367,"PVR: Motera, Ahmedabad",1,3
+368,"PVR: MSR Elements Mall, Bengaluru",2,3
+369,"PVR: Naraina, Delhi",4,1
+370,"PVR: Nirmal Lifestyle, Mulund (W)",8,2
+371,"PVR: Oberoi Mall, Goregaon (E)",8,2
+372,"PVR: Orion Gold, Rajajinagar",2,1
+373,"PVR: Orion, Rajajinagar",2,3
+374,"PVR: Pacific, Delhi",4,3
+375,"PVR: Panjagutta, Hyderabad",5,2
+376,"PVR: Pepsi IMAX, Koramangala",2,1
+377,"PVR: Phoenix, Kotak IMAX, Lower Parel",8,4
+378,"PVR: Phoenix, Lower Parel",8,3
+379,"PVR: Plaza-CP, Delhi",4,3
+380,"PVR: Prashant Vihar, Delhi",4,1
+381,"PVR: Priya, Delhi",4,0
+382,"PVR: Rivoli, Delhi",4,0
+383,"PVR: RK Cineplex, Hyderabad",5,3
+384,"PVR: Sangam, Delhi",4,0
+385,"PVR: Select City Walk (Gold), Delhi",4,1
+386,"PVR: Select City Walk, Delhi",4,4
+387,PVR: Shalimar Bagh,4,1
+388,PVR: Sion,8,1
+389,"PVR: Sona Shopping Centre, Kandivali (W)",8,3
+390,"PVR: Soul Spirit Bellandur, Bengaluru",2,4
+391,"PVR: Vaishnavi Sapphire Mall, Bengaluru",2,1
+392,"PVR: Velachery, Chennai",3,2
+393,"PVR: Vikaspuri, Delhi",4,1
+394,"PVR: VR Gold, Bengaluru",2,4
+395,"PVR: VR, Bengaluru",2,4
+396,Q Cinemas: Gold Souk Grande,6,2
+397,Q Cinemas: Shahdara,4,5
+398,Radhakrishna Theatre: R.T. Nagar,2,5
+399,Raghavendra 35mm: Malkajgiri,5,1
+400,Raghavendra 70mm: Malkajgiri,5,0
+401,Raghavendra Mini: Malkajgiri,5,2
+402,"Ragini Cinema, Beliaghata",7,0
+403,Raj Theatre - A/C DTS: Chennai,3,4
+404,"Raja Murali Theatre, Kodigehalli Sahakar Nagar(post)",2,1
+405,Rajarajeshwari Theatre: Nagarbhavi Circle,2,2
+406,Rajdhani 70mm: Dilsukhnagar,5,3
+407,Rajdhani Deluxe Theatre: Dilsukhnagar,5,2
+408,Rajhans Cinemas: Nikol,1,5
+409,Rajhans Cinemas: Satadhar,1,0
+410,Rajyalakshmi 70mm: Uppal,5,2
+411,Rakki Cinemas - Ambattur,3,1
+412,Ramakrishna 70MM - Indra Cinemas: Abids,5,1
+413,Ranga Theatre: Jeedimetla,5,1
+414,"Ranganatha Theatre, Mysore Road",2,1
+415,Ravi Digital 2K Cinema: Ejipura,2,0
+416,"Regal Cinema, Dharmatala",7,2
+417,Regal Cinema: Colaba,8,1
+418,Regal Cinema: Kolkata,7,2
+419,Revolution Multiplex: Ahmedabad,1,1
+420,Rex Theatre: Brigade Road,2,2
+421,"Ritz Cinema: Kashmere Gate, Delhi",4,2
+422,"RNA Play Cinema: Kalanagar, Bandra (E)",8,3
+423,"Robin Theatre, Chudenapura",2,2
+424,Rohini Silver Screens: Chennai,3,0
+425,"Roopam, Poonamallee High Road",3,3
+426,Roxy Cinema: Charni Road,8,2
+427,Roxy Talkies: Kolkata,7,1
+428,"Royal Talkies, Falkland Road",8,1
+429,Rukmini Cinema: Patancheru,5,3
+430,Sai Ranga: Miyapur,5,1
+431,Sampige Digital 2k Cinema: Malleshwaram,2,1
+432,Sampoorna 70mm: Vanasthalipuram,5,1
+433,Sandeep Theatre: Shivaji Nagar,2,1
+434,Sandhya 35mm: RTC X Roads,5,3
+435,Sandhya 70mm: RTC X Roads,5,4
+436,Sandhya Digital 4K Projection Dolby Atmos: Madiwal,2,6
+437,Sangam Cinemas,3,2
+438,Sangeet Theatre: Shivaji Nagar,2,3
+439,Sangeeta Cineplex: Malad,8,5
+440,Santosh Cinemas: Abids,5,1
+441,Santosh Theatre: Gandhinagar,2,2
+442,"Sapna Cinema, Juhapura",1,1
+443,Sapna Cinemas: Abids,5,0
+444,Sapna Theatre: Gandhi Nagar,2,1
+445,"Sapthagiri 70Mm, Ashoknagar",5,4
+446,Sapthagiri Theatre: RTC X Roads,5,3
+447,"Saravana Theatre, Brick Kiln Road",3,3
+448,Sarita Cinema: Kochi,6,4
+449,"Sathyam Royapettah, Lloyds Estate",3,0
+450,Satyam Janak Place-NCR,4,5
+451,Satyam Nehru Place-NCR,4,3
+452,Satyam Patel Nagar-NCR,4,2
+453,Satyam Theatre: Ameerpet,5,4
+454,Select Talkies: Bolaram,5,0
+455,Sensation Insomnia: Khairatabad,5,2
+456,Sensation Sunshine: Khairatabad,5,1
+457,"Shalimar Cinema, Bharat Nagar",8,5
+458,Shama Cinema: Hyderabad,5,4
+459,Shanti Theatre: Narayanaguda,5,2
+460,"Sharad Talkies, Chembur",8,2
+461,Sharada 70mm: Kapra,5,3
+462,Sharada Cinema: Dadar (E),8,0
+463,Sharada Cinemas A/C: S.P Road,2,2
+464,"Sheeshmahal Cinema, Begumpet",5,1
+465,"Sheetal Cinema, Kurla North",8,3
+466,Shiela Cinema: Delhi,4,2
+467,"Shital Cinema, Gomtipur",1,2
+468,Shiva Parvathi Cinema: Kukatpally,5,0
+469,"Shiva Theatre, Chaithanyapuri Colony",5,1
+470,"Shobha Talkies, Bhabuji Nagar",2,3
+471,"Shree Balaji Agora Mall, Chandkheda",1,2
+472,"Shri Krishna Cinema, Bhandup Ind. Estate",8,1
+473,"Silver Cinema, Ambewadi",8,0
+474,"SK-Marlen Cinemas 2K, Guindy: Alandur",3,4
+475,"Soundarya Mahal, Antharahalli",2,4
+476,"Spectrum Mall, Perambur North",3,3
+477,Sree Rama Theatre: Bahadurpura,5,2
+478,Sree Ramana 70MM: Amberpet,5,5
+479,Sree Ramulu 70mm: Moosapet,5,0
+480,Sree Sai Puja: Suraram,5,1
+481,Sree Sai Raja Theatre: Musheerabad,5,2
+482,Sri Balaji Digital 2K Cinema: Viveknagar,2,2
+483,Sri Bhuvaneshwari Theatre A/C dts,3,3
+484,Sri Ganga Cinemas Dolby Atmos - KolathurDolby Atmos,3,4
+485,Sri Kokila Theatre: Hosakerehalli,2,4
+486,Sri Krishna 70MM: Uppal,5,3
+487,Sri Krishna Digital 2K Cinema: Bommanahalli,2,2
+488,Sri Krishna Theatre: KR Puram,2,4
+489,"Sri Lakshmi Deluxe, Main Road",5,1
+490,Sri Lakshmi Deluxe: Karmanghat,5,2
+491,Sri Lakshmi Theatre: Ramamurthy Nagar,2,4
+492,"Sri Madeswara Chitra Mandira, Bangalore",2,1
+493,"Sri Maruthi Theatre, Rajagopal Nagar",2,4
+494,Sri Mayuri Theatre: RTC X Roads,5,1
+495,"Sri Murugan, Ambattur",3,2
+496,Sri Renuka Prasanna Theatre: J P Nagar,2,2
+497,"Sri Sai Ram Theatre, MainRoad",5,3
+498,Sri Sai Ram Theatre: Malkajgiri,5,3
+499,"Sri Siddalingeswara Chitra Mandira, Bangalore",2,4
+500,Sri Srinivasa Theatre: Padmanabanagara,2,2
+501,Sri Vajreshwari Theatre: Ullal,2,0
+502,Sri Venkateshwara Theatre: Kengeri,2,3
+503,Sri Vinayaka A/C Digital 2K Cinemas: Varthur,2,2
+504,Sri Vinayaka Digital 2K Cinema (D.J.Halli),2,1
+505,Sridar Cinemas: Ernakulam,6,5
+506,Sridevi Cinema: Chilakalguda,5,2
+507,Srilatha and Sridevi Complex: Chanda Nagar,5,0
+508,"Srinivas Theatre, Allapur",5,0
+509,"Srinivasa Chitra Mandira, Kadugodi",2,1
+510,Srinivasa Digital 4K Cinema: S.G. Palya,2,4
+511,Srinivasa Talkies: Uppal,5,4
+512,Srinivasa Theatre,3,2
+513,SSV Cine Park: Patancheru,5,2
+514,"Star Theatre, Bidhan Sarani",7,3
+515,Sterling Cineplex: Fort,8,2
+516,Sudarshan 35mm 4k & Dolby Atmos: RTC X Roads,5,3
+517,"Sujatha Talkies, Deepanjalinagar",2,2
+518,Sun City: Vile Parle,8,3
+519,"Super Cinema, Bharat Nagar",8,2
+520,Super Cinema: Grant Road,8,1
+521,"Super Talkies, Chickpet",2,2
+522,Suraj Cinema - Najafgarh-NCR,4,1
+523,"Suresh, Sitaphalmandi",5,1
+524,Sushma Cinema: Vanasthalipuram,5,1
+525,SVC Cinemas Eeshwar: Attapur,5,4
+526,SVC Mahalakshmi Screen 1: Kothapet,5,2
+527,SVC Mahalakshmi Screen 2: Kothapet,5,1
+528,SVC Sangeetha Theatre: RC Puram,5,3
+529,SVR's Siva Sakthi Theatre: Kapra,5,5
+530,"Talkie Show House, Sibdas Bhaduri St",7,1
+531,Talluri Theatres: Kushaiguda,5,0
+532,Tarakarama Cineplex: Kachiguda,5,1
+533,"The Cinema GT World: Magadi Rd, Bengaluru",2,4
+534,"The Forum Vijaya Mall, Vadapalani",3,0
+535,Thirumala Digital 2K Cinema: Agara,2,1
+536,"Thirumurugan, Ambattur",3,7
+537,"Time Cinema: CG Road, Ahmedabad",1,0
+538,Tivoli Cinema: Extreme,5,2
+539,Tivoli Cinema: Hyderabad,5,3
+540,Triveni Theatre: Gandhinagar,2,2
+541,"Tulsi Chitra Mandira, Marathalli",2,3
+542,Udhayam Complex,3,3
+543,"Udhayam Theatre, Ashoknagar",3,2
+544,"Uma Theatre, Chamrajpet",2,1
+545,Urvashi Digital 4K Cinema: Lalbagh Road,2,3
+546,"Usha Mayuri, Ashoknagar",5,1
+547,"Usha Talkies, Gomtipur",1,1
+548,Vaibhav Digital 4K Cinema: Sanjaynagar,2,0
+549,Vaibhavi A/C Theatre: Uttarahalli,2,3
+550,Vainidhi Digital 2K Cinemas (Chandan): Singapura,2,2
+551,Vaishnavi A/C Theatre: Uttarahalli,2,2
+552,Veerabhadreshwara Theatre: Kamala Nagar,2,2
+553,Veeresh Cinemas Screen 1: Magadi Rd,2,4
+554,Veeresh Cinemas Screen 2: Magadi Rd,2,0
+555,Venkatadri Cinema 70MM: Dilsukhnagar,5,1
+556,Venkataramana Cinema: Kachiguda,5,3
+557,Venkateshwara A/c Digital 2K Cinema: K.R.Puram,2,3
+558,"Venkateshwara Cinemas: Gollarahatti,Magadi Rd",2,1
+559,Venkateshwara Digital 2K Cinema: Avalahalli Girina,2,2
+560,Vetrrivel Theatre 2K - Nanganallur,3,0
+561,Vijay Theatre: Byatarayanapura,2,0
+562,Vijayalakshmi Digital 2K Cinema: Garudacharpalya,2,2
+563,Vijetha 70MM: Borabanda,5,3
+564,Vimal 70mm: Balanagar,5,2
+565,"Vinayaka Chitra Mandira, Marathahalli",2,1
+566,"Vinayaka Theatre, Chamrajpet",2,1
+567,Vinayaka Theatre: Harinagar,2,0
+568,Vishal A/C Theatre: Kamakshipalya,2,3
+569,"Vishal Cinema, Janta Market",4,1
+570,Vishnu Cinemas A/C DTS: Vanasthalipuram,5,1
+571,Viswanath 70MM Theater: Kukatpally,5,0
+572,"Vullas Theatre, Yeshwantpura",2,3
+573,Vyjayanthi Cinema: Nacharam,5,0
+574,Wave: Raja Garden,4,3
+575,Wide Angle: Ahmedabad,1,2
+576,Woodlands Complex: Chennai,3,1
+577,Yadagiri Theatre: Santosh Nagar,5,3
+578,"Yakut Mahal Talkies, Yakutpura",5,2
