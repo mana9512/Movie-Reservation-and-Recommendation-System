@@ -38,7 +38,7 @@ tickets.
 ● The system should be able to recommend similar movies to users based on
 their ratings.
 
-# Steps to set-up the Database:
+## Steps to set-up the Database:
 
 ● Run MySQL Workbench
   
