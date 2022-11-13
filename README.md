@@ -81,3 +81,5 @@ their ratings.
 
 ● The Entity- Relationship Diagram is available in the png file - “ERD_FINAL_10.0.png”
 
+● Note: Please refer folder name - "INSERT SQL" to Create and Insert the Data into the Database.
+
