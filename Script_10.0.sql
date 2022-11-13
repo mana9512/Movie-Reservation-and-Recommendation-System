@@ -18,7 +18,7 @@ DROP SCHEMA IF EXISTS `movie_ticket_reservation` ;
 -- -----------------------------------------------------
 -- Schema movie_ticket_reservation
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `movie_ticket_reservation` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
+CREATE SCHEMA IF NOT EXISTS `movie_ticket_reservation` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci ;
 USE `movie_ticket_reservation` ;
 
 -- -----------------------------------------------------
@@ -285,7 +285,7 @@ CREATE TABLE IF NOT EXISTS `movie_ticket_reservation`.`twitter_user` (
   UNIQUE INDEX `twitter_handle_UNIQUE` (`twitter_handle` ASC) VISIBLE)
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
+COLLATE = utf8mb4_general_ci;
 
 
 -- -----------------------------------------------------
@@ -314,7 +314,7 @@ CREATE TABLE IF NOT EXISTS `movie_ticket_reservation`.`twitter_tweets` (
     REFERENCES `movie_ticket_reservation`.`twitter_user` (`twitter_handle`))
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci;
+COLLATE = utf8mb4_general_ci;
 
 
 -- -----------------------------------------------------
