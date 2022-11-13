@@ -137,57 +137,209 @@ for names in keywords:
                 connection.commit()
                 print(cursor.rowcount, "was inserted.")
 
-
-# Q1    What user posted this tweet?
+# 
+# Common Twitter Queries
+# 
+print("-----Common Twitter Queries-----")
+# Q1. What user posted this tweet?
+print("Q1. What user posted this tweet?")
 anyTweet = input("Enter tweet id: ")
-qone = cursor.execute("SELECT u.name, t.twitter_text FROM twitter_user as u INNER JOIN twitter_tweets as t ON u.twitter_handle = t.twitter_handle WHERE t.tweet_id = %s", (anyTweet, ))
-qone = cursor.fetchone()
-print("Q1: ", qone)
+if(len(anyTweet) == 0):
+    print("Please enter a valid user handle")
+else:
+    qone = cursor.execute("SELECT u.name, t.twitter_text FROM twitter_user as u INNER JOIN twitter_tweets as t ON u.twitter_handle = t.twitter_handle WHERE t.tweet_id = %s", (anyTweet, ))
+    qone = cursor.fetchone()
+    print("Ans1: ", qone)
 
-# Q2    When did the user post this tweet?
-qtwo = cursor.execute("SELECT u.name, t.twitter_text, t.created_at FROM twitter_user as u INNER JOIN twitter_tweets as t ON u.twitter_handle = t.twitter_handle WHERE t.tweet_id = %s", (anyTweet, ))
-qtwo = cursor.fetchone()
-print("Q2: ", qtwo)
+    # Q2. When did the user post this tweet?
+    print("Q2. When did the user post this tweet?")
+    qtwo = cursor.execute("SELECT u.name, t.twitter_text, t.created_at FROM twitter_user as u INNER JOIN twitter_tweets as t ON u.twitter_handle = t.twitter_handle WHERE t.tweet_id = %s", (anyTweet, ))
+    qtwo = cursor.fetchone()
+    print("Ans2: ", qtwo)
 
-# Q3    What tweets have this user posted in the past 24 hours?
+# Q3. What tweets have this user posted in the past 24 hours?
+print("Q3. What tweets have this user posted in the past 24 hours?")
 anyUser = input("Enter user handle: ")
-now = datetime.now()
-prev = now + timedelta(days=-1)
-now = datetime.strftime(now, "%Y-%m-%d %H:%M:%S")
-prev = datetime.strftime(prev, "%Y-%m-%d %H:%M:%S")
+if(len(anyUser) == 0):
+    print("Please enter a valid user handle")
+else:
+    now = datetime.now()
+    prev = now + timedelta(days=-1)
+    now = datetime.strftime(now, "%Y-%m-%d %H:%M:%S")
+    prev = datetime.strftime(prev, "%Y-%m-%d %H:%M:%S")
 
-print("time------", type(prev), now)
-fetchThree = api.user_timeline(screen_name=anyUser, count=100)
-for tweet in fetchThree:
-    created_at_date = datetime.strftime(tweet.created_at, "%Y-%m-%d %H:%M:%S")
-    print(created_at_date)
-    if(created_at_date > prev and created_at_date < now):
-        print("tweet in 24 hours")
-        cursor.execute("insert into twitter_tweets (tweet_id, twitter_handle, twitter_text, profile_image_url, created_at, likes, retweet) values (%s, %s, %s, %s, %s, %s, %s);", (tweet.id, anyUser, tweet.text, tweet.user.profile_image_url_https, tweet.created_at, tweet.favorite_count, tweet.retweet_count))
-        connection.commit()
-        print(cursor.rowcount, "was inserted.")
-    else:
-        print("tweet not in 24 hours")
-qthree = cursor.execute("SELECT u.name, t.twitter_text, t.created_at FROM twitter_user as u INNER JOIN twitter_tweets as t ON u.twitter_handle = t.twitter_handle WHERE u.twitter_handle = %s and t.created_at BETWEEN %s AND %s", (anyUser, prev, now))
-qthree = cursor.fetchall()
-print("Q3: ", qthree)
+    fetchThree = api.user_timeline(screen_name=anyUser, count=100)
+    for tweet in fetchThree:
+        created_at_date = datetime.strftime(tweet.created_at, "%Y-%m-%d %H:%M:%S")
+        
+        cursor.execute('''select * from twitter_tweets WHERE tweet_id = %s''', (tweet.id, ))
+        findThisTweet = cursor.fetchone()
+        print("findThisTweet----------", findThisTweet)
+        if findThisTweet:
+            print("Tweet already exists")
+        else:
+            if(created_at_date > prev and created_at_date < now):
+                print("tweet in 24 hours")
+                cursor.execute("insert into twitter_tweets (tweet_id, twitter_handle, twitter_text, profile_image_url, created_at, likes, retweet) values (%s, %s, %s, %s, %s, %s, %s);", (tweet.id, anyUser, tweet.text, tweet.user.profile_image_url_https, tweet.created_at, tweet.favorite_count, tweet.retweet_count))
+                connection.commit()
+                print(cursor.rowcount, "was inserted.")
+            else:
+                print("tweet not in 24 hours")
+    qthree = cursor.execute("SELECT u.name, t.twitter_text, t.created_at FROM twitter_user as u INNER JOIN twitter_tweets as t ON u.twitter_handle = t.twitter_handle WHERE u.twitter_handle = %s and t.created_at BETWEEN %s AND %s", (anyUser, prev, now))
+    qthree = cursor.fetchall()
+    print("Ans3: ", qthree)
 
-# Q4    How many tweets have this user posted in the past 24 hours?
-qfour = cursor.execute("SELECT u.name, count(t.twitter_text), t.created_at FROM twitter_user as u INNER JOIN twitter_tweets as t ON u.twitter_handle = t.twitter_handle WHERE u.twitter_handle = %s and t.created_at BETWEEN %s AND %s", (anyUser, prev, now))
-qfour = cursor.fetchall()
-print("Q4: ", qfour)
+    # Q4. How many tweets have this user posted in the past 24 hours?
+    print("Q4. How many tweets have this user posted in the past 24 hours?")
+    qfour = cursor.execute("SELECT u.name, count(t.twitter_text), t.created_at FROM twitter_user as u INNER JOIN twitter_tweets as t ON u.twitter_handle = t.twitter_handle WHERE u.twitter_handle = %s and t.created_at BETWEEN %s AND %s", (anyUser, prev, now))
+    qfour = cursor.fetchall()
+    print("Ans4: ", qfour)
 
-# Q5    When did this user join Twitter?
-qfive = cursor.execute("SELECT u.twitter_handle, u.created_at FROM twitter_user as u where u.twitter_handle = %s", (anyUser, ))
-qfive = cursor.fetchall()
-print("Q5: ", qfive)
+    # Q5. When did this user join Twitter?
+    print("Q5. When did this user join Twitter?")
+    qfive = cursor.execute("SELECT u.twitter_handle, u.created_at FROM twitter_user as u where u.twitter_handle = %s", (anyUser, ))
+    qfive = cursor.fetchall()
+    print("Ans5: ", qfive)
 
-# Q6    What keywords/ hashtags are popular?
+# Q6. What keywords/ hashtags are popular?
+print("Q6. What keywords/ hashtags are popular?")
 qsix = cursor.execute("SELECT t.tag, count(t.tag) FROM tweet_tags as t GROUP BY t.tag ORDER BY count(t.tag) DESC LIMIT 10")
 qsix = cursor.fetchall()
-print("Q6: ", qsix)
+print("Ans6: ", qsix)
 
-# Q7    What tweets are popular?
+# Q7. What tweets are popular?
+print("Q7. What tweets are popular?")
 qseven = cursor.execute("SELECT t.twitter_text, t.likes, t.retweet FROM twitter_tweets as t ORDER BY t.retweet DESC LIMIT 10")
 qseven = cursor.fetchall()
-print("Q7: ", qseven)
+print("Ans7: ", qseven)
+
+# 
+# Manashree's Queries
+# 
+print("-----Manashree's Queries-----")
+# Q1. What is the average rating of comedy genre movies?
+print("Q1. What is the average rating of comedy genre movies?")
+mq1 = "SELECT AVG(m.rating) AS Average_Rating FROM Movie m JOIN Movie_Genre mg ON m.movie_id=mg.movie_id JOIN Genre g ON g.genre_id = mg.genre_id and g.genre_id=5"
+cursor.execute(mq1)
+mq1 = cursor.fetchall()
+print("Ans1: ", mq1)
+
+# Q2. What are the top 10 hit movies by Ajay Devgn?
+print("Q2. What are the top 10 hit movies by Ajay Devgn?")
+mq2 = "SELECT m.name, m.rating, m.movie_id from movie m INNER JOIN movie_stars ma on ma.movie_id = m.movie_id and ma.star_id=(SELECT s.star_id from stars s where s.name='Ajay Devgn') ORDER BY m.rating DESC Limit 10"
+cursor.execute(mq2)
+mq2 = cursor.fetchall()
+print("Ans2: ", mq2)
+
+# Q3. What is the total number of theaters in Ahmedabad?
+print("Q3. What is the total number of theaters in Ahmedabad?")
+mq3 = "SELECT COUNT(theater_id) AS NoOfTheaters FROM Theaters t where t.city_id=(Select c.city_id from city c where c.name='Ahmedabad')"
+cursor.execute(mq3)
+mq3 = cursor.fetchall()
+print("Ans3: ", mq3)
+
+# Q4. Name the movies with minimum runtime.
+print("Q4. Name the movies with minimum runtime.")
+mq4 = "SELECT N.NAME FROM MOVIE N WHERE N.RUNTIME=(SELECT MIN(M.RUNTIME) FROM MOVIE M)"
+cursor.execute(mq4)
+mq4 = cursor.fetchall()
+print("Ans4: ", mq4)
+
+# Q5. List the movie with the least number of tweets between 2022-11-1 between 2022-11-12.
+print("Q5. List the movie with the least number of tweets between 2022-11-1 between 2022-11-12.")
+mq5 = "Select m.name, count(t.movie_id) as count from movie m inner join twitter_tweets t on t.movie_id=m.movie_id group by m.name order by count limit 1"
+cursor.execute(mq5)
+mq5 = cursor.fetchall()
+print("Ans5: ", mq5)
+
+# Q6. List actors of movies with highest positive reviews fetched from tweets between 2022-11-1 between 2022-11-12.
+print("Q6. List actors of movies with highest positive reviews fetched from tweets between 2022-11-1 between 2022-11-12.")
+mq6 = "Select s.name from stars s inner join movie_stars ms on s.star_id=ms.star_id and ms.movie_id=(Select m.movie_id  from movie m inner join twitter_tweets t on t.movie_id=m.movie_id group by m.name order by sum(t.sentiment) limit 1)"
+cursor.execute(mq6)
+mq6 = cursor.fetchall()
+print("Ans6: ", mq6)
+
+# 
+# Anshul's Queries
+# 
+print("-----Anshul's Queries-----")
+# Q1. Top 5 actors with maximum number of movie releases in the year 2016?
+print("Q1. Top 5 actors with maximum number of movie releases in the year 2016?")
+aq1 = "SELECT count(stars.star_id) as top_actors ,stars.name, movie.released_year FROM stars INNER JOIN movie_stars ON movie_stars.star_id = stars.star_id INNER JOIN movie ON movie.movie_id = movie_stars.movie_id and movie.released_year = 2016 GROUP BY stars.star_id ORDER BY top_actors DESC LIMIT 5"
+cursor.execute(aq1)
+aq1 = cursor.fetchall()
+print("Ans1: ", aq1)
+
+# Q2. Total number of screens in theaters in the city of Mumbai?
+print("Q2. Total number of screens in theaters in the city of Mumbai?")
+aq2 = "SELECT c.name, SUM(t.screens) FROM theaters AS t INNER JOIN city AS c ON t.city_id = c.city_id AND c.name = 'Mumbai'"
+cursor.execute(aq2)
+aq2 = cursor.fetchall()
+print("Ans2: ", aq2)
+
+# Q3. List the actors whose movies were released between 2018 and 2021.
+print("Q3. List the actors whose movies were released between 2018 and 2021.")
+aq3 = "SELECT s.name, m.name, m.released_year FROM movie AS m INNER JOIN movie_stars AS ms ON m.movie_id = ms.movie_id AND m.released_year BETWEEN 2018 AND 2021 INNER JOIN stars AS s ON s.star_id = ms.star_id"
+cursor.execute(aq3)
+aq3 = cursor.fetchall()
+print("Ans3: ", aq3)
+
+# Q4. List the actors of movies with highest number of retweets between 2022-11-01 and 2022-11-12.
+print("Q4. List the actors of movies with highest number of retweets between 2022-11-01 and 2022-11-12.")
+aq4 = "SELECT s.name FROM stars AS s INNER JOIN movie_stars AS ms ON s.star_id = ms.star_id AND ms.movie_id = (SELECT m.movie_id FROM movie AS m INNER JOIN twitter_tweets AS t ON m.movie_id = t.movie_id WHERE t.created_at BETWEEN '2022-11-01' AND '2022-11-12' ORDER BY t.retweet DESC LIMIT 1)"
+cursor.execute(aq4)
+aq4 = cursor.fetchall()
+print("Ans4: ", aq4)
+
+# Q5. List the movie with most negative reviews fetched from tweets between 2022-11-1 between 2022-11-12.
+print("Q5. List the movie with most negative reviews fetched from tweets between 2022-11-1 between 2022-11-12.")
+aq5 = "SELECT m.name, SUM(t.sentiment) AS sentiment FROM movie AS m INNER JOIN twitter_tweets AS t ON t.movie_id = m.movie_id GROUP BY m.name ORDER BY SUM(sentiment) ASC LIMIT 1"
+cursor.execute(aq5)
+aq5 = cursor.fetchall()
+print("Ans5: ", aq5)
+
+# Q6. List movies with most and distinct tweet mentions fetched from tweets between 2022-11-1 between 2022-11-12.
+print("Q6. List movies with most and distinct tweet mentions fetched from tweets between 2022-11-1 between 2022-11-12.")
+aq6 = "SELECT m.name, COUNT(DISTINCT tt.target_user) as all_mentions FROM movie AS m INNER JOIN twitter_tweets AS t ON m.movie_id = t.movie_id INNER JOIN tweet_mentions AS tt ON t.tweet_id = tt.tweet_id WHERE t.created_at BETWEEN '2022-11-1' AND '2022-11-12' GROUP BY m.name ORDER BY all_mentions DESC LIMIT 1"
+cursor.execute(aq6)
+aq6 = cursor.fetchall()
+print("Ans6: ", aq6)
+
+# 
+# Soham's Queries
+# 
+print("-----Soham's Queries-----")
+# Q1. Best rated movie between 2015 to 2016.
+print("Q1. Best rated movie between 2015 to 2016.")
+sq1 = "SELECT name, max(rating) FROM movie WHERE released_year BETWEEN 2015 AND 2016 ORDER BY name ASC"
+cursor.execute(sq1)
+sq1 = cursor.fetchall()
+print("Ans1: ", sq1)
+
+# Q2. Which theater had the highest sales?
+print("Q2. Which theater had the highest sales?")
+sq2 = "SELECT t.name, MAX(s.ticket_price*s.ticket_sold) FROM theaters t INNER JOIN screens sc ON t.theater_id = sc.theater_id INNER JOIN screen_shows s ON sc.screen_id = s.screen_id"
+cursor.execute(sq2)
+sq2 = cursor.fetchall()
+print("Ans2: ", sq2)
+
+# Q3. Year with least number of movies
+print("Q3. Year with least number of movies")
+sq3 = "SELECT released_year, COUNT(movie_ID) as movie_count FROM movie GROUP BY released_year ORDER BY movie_count ASC LIMIT 1"
+cursor.execute(sq3)
+sq3 = cursor.fetchall()
+print("Ans3: ", sq3)
+
+# Q4. List movies with most tweet tags fetched from tweets between 2022-11-1 between 2022-11-12.
+print("Q4. List movies with most tweet tags fetched from tweets between 2022-11-1 between 2022-11-12.")
+sq4 = "SELECT m.name, COUNT(tt.tag) FROM movie AS m INNER JOIN twitter_tweets AS t ON m.movie_id = t.movie_id INNER JOIN tweet_tags AS tt ON t.tweet_id = tt.tweet_id WHERE t.created_at BETWEEN '2022-11-1' AND '2022-11-12' GROUP BY m.name ORDER BY COUNT(tt.tag) DESC LIMIT 1"
+cursor.execute(sq4)
+sq4 = cursor.fetchall()
+print("Ans4: ", sq4)
+
+# Q5.  List movies with most tweets fetched from tweets between 2022-11-1 between 2022-11-12.
+print("Q5.  List movies with most tweets fetched from tweets between 2022-11-1 between 2022-11-12.")
+sq5 = "SELECT m.movie_id, COUNT(t.tweet_id) AS tweet_count FROM movie AS m INNER JOIN twitter_tweets AS t ON m.movie_id = t.movie_id GROUP BY t.movie_id ORDER BY tweet_count DESC LIMIT 1"
+cursor.execute(sq5)
+sq5 = cursor.fetchall()
+print("Ans5: ", sq5)
