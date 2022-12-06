@@ -83,3 +83,12 @@ their ratings.
 
 ● Note: Please refer folder name - "INSERT SQL" to Create and Insert the Data into the Database.
 
+## Assignment 3
+
+● Refer SQL file with name - " ", for the entire database and load it in the SQL Workbench to access the entire database.
+
+● The updated Entity- Relationship Diagram is available in the png file - " ".
+
+● Note: Please refer folder name - "INSERT SQL" to Create and Insert the Data into the Database.
+
+● Refer "DMDD Data Auditing.ipynb" for Data Auditing.
