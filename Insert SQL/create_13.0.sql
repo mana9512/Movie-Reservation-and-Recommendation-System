@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `movie_dum` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
-USE `movie_dum`;
+CREATE DATABASE  IF NOT EXISTS `mtr` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+USE `mtr`;
 -- MySQL dump 10.13  Distrib 8.0.31, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: movie_ticket_reservation
