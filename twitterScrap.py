@@ -24,7 +24,7 @@ def create_connection(host_name, user_name, user_password, db):
     except Error as e:
         print("The error '{e}' occurred")
     return connection
-connection = create_connection("localhost", "root", "root", "mtr")
+connection = create_connection("localhost", "root", "root", "movie_database")
 cursor = connection.cursor()
 
 #  Authentication
