@@ -27,7 +27,7 @@ def create_connection(host_name, user_name, user_password, db):
     except Error as e:
         print("The error occurred", e)
     return connection
-connection = create_connection("localhost", "root", "root", "movie_dum")
+connection = create_connection("localhost", "root", "root", "movie_ticket_reservation")
 cursor = connection.cursor()
 
 # # # Load data
@@ -238,7 +238,9 @@ for index,row in  df8.iterrows():
     users.append([row["user_id"],row["name"],row["age"], row["gender"], row["email"]])
 
 for user in users:
-    cursor.execute('''insert into user (user_id, name, age, gender, email)  values (%s, %s, %s, %s, %s)''', (user[0], user[1], user[2], user[3], user[4]))
+    cursor.execute('''insert into user (user_id, name, age, email)  values (%s, %s, %s, %s)''', (user[0], user[1], user[2], user[4]))
+    cursor.execute('''insert into user_gender (user_id, gender)  values (%s, %s)''', (user[0], user[3]))
+
 connection.commit()
 
 for item in o:
@@ -279,7 +281,7 @@ theatres = df3[['theatre_name', 'no_screens', 'city']].values
 # #insert data into theatre table in the database
 i=0
 for theatre in theatres:
-    cursor.execute('''insert into theaters (theater_id,name, screens, city_id)  values (%s, %s, %s, %s)''', (i, theatre[0], theatre[1], city_map[theatre[2]]))
+    cursor.execute('''insert into theaters (theater_id, name, city_id)  values (%s, %s, %s)''', (i, theatre[0], city_map[theatre[2]]))
     i+=1
 connection.commit()
 
