@@ -38,35 +38,6 @@ tickets.
 ● The system should be able to recommend similar movies to users based on
 their ratings.
 
-## Steps to set-up the Database:
-
-● Run MySQL Workbench
-  
-  ● Upload “Script_20.0.sql” in it
-    
-    ● Click on the “Local instance 3306” box
-      (Note: the name can be different in every individual’s device)
-    
-    ● Once workbench initiates, go to file and click “Run SQL Script…”
-    
-    ● Select the “Script_20.0.sql” file extracted from the Zip Folder
-      
-      ● Database with tables and empty columns is ready
-      
-      ● Check the schemas to view the columns
-      
-      ● If the columns are not visible there will be a refresh button just below the schema button
-  
-  ● Upload all 10 Datasets in the respective tables
-    
-    ● Right click on each table and click on the Table Data Import Wizard option
-      
-      ● Select the corresponding CSV file available in the ZIP folder for each column
-    
-    ● There are 10 Datasets namely
-      
-      ● Screens, Movie-Star Mapping, Shows, City, Show Timings, Movies, Movie-Genre Mapping, Genre, Stars, Theaters
-
 ● Refer document “Movie Ticket Reservation Queries”
   
   ● Run the 7 Common Twitter Queries Use Cases and 16 (5 per group member) Individual Queries Use Cases to get corresponding answers
