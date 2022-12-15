@@ -84,13 +84,13 @@ their ratings.
 ● Note: Please refer folder name - "INSERT SQL" to Create and Insert the Data into the Database.
 
 
-## Steps followed to create the complete DB:
+## Steps followed throughout the project:
 
 ● We researched and found the dataset for the selected topic. It is mentioned in the links below:
 
-  ● Dataset 1
+  ● Dataset 1 - https://data.world/adrianmcmahon/imdb-dataset-all-indian-movies
 
-  ● Dataset 2
+  ● Dataset 2 - https://github.com/MostafaMhussein/-Project-EDA-For-IMDB-Movies-Dataset/blob/master/EDA%20For%20IMDB%20Movies%20Dataset.ipynb
 
 ● Further, we created the schema using MySQL Workbench
 
