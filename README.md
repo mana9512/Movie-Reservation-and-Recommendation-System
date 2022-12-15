@@ -87,17 +87,30 @@ their ratings.
 ## Steps followed to create the complete DB:
 
 ● We researched and found the dataset for the selected topic. It is mentioned in the links below:
+
   ● Dataset 1
+
   ● Dataset 2
+
 ● Further, we created the schema using MySQL Workbench
+
 ● Processes like Cleaning, Munging and Scraping were performed on the datasets using python
+
 ● Web scrapped data from twitter and linked it with movie_database for the twitter bot assignment
+
 ● We inserted this data into the database and normalized it
+
 ● Further, we studied the database and created a few use cases and its queries, followed by creating its views
+
 
 ## Git Files
 ● dataformat.py - python script to format data from movies_dataset.csv and fits into database
+
 ● twitterScrap.py - python script to scrape data from twitter of specific movies
+
 ● movies_dataset.csv - Original dataset used for database from https://data.world/
+
 ● indian-movie-theaters.csv - dataset used for fetching data for theaters
+
 ● plots.ipynb - graphs for data visualization
+
