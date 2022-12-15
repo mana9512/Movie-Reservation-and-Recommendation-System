@@ -42,14 +42,14 @@ their ratings.
 
 ● Run MySQL Workbench
   
-  ● Upload “Script_10.0.sql” in it
+  ● Upload “Script_20.0.sql” in it
     
     ● Click on the “Local instance 3306” box
       (Note: the name can be different in every individual’s device)
     
     ● Once workbench initiates, go to file and click “Run SQL Script…”
     
-    ● Select the “Script_10.0.sql” file extracted from the Zip Folder
+    ● Select the “Script_20.0.sql” file extracted from the Zip Folder
       
       ● Database with tables and empty columns is ready
       
@@ -83,12 +83,21 @@ their ratings.
 
 ● Note: Please refer folder name - "INSERT SQL" to Create and Insert the Data into the Database.
 
-## Assignment 3
 
-● Refer SQL file with name - " ", for the entire database and load it in the SQL Workbench to access the entire database.
+## Steps followed to create the complete DB:
 
-● The updated Entity- Relationship Diagram is available in the png file - " ".
+● We researched and found the dataset for the selected topic. It is mentioned in the links below:
+  ● Dataset 1
+  ● Dataset 2
+● Further, we created the schema using MySQL Workbench
+● Processes like Cleaning, Munging and Scraping were performed on the datasets using python
+● Web scrapped data from twitter and linked it with movie_database for the twitter bot assignment
+● We inserted this data into the database and normalized it
+● Further, we studied the database and created a few use cases and its queries, followed by creating its views
 
-● Note: Please refer folder name - "INSERT SQL" to Create and Insert the Data into the Database.
-
-● Refer "DMDD Data Auditing.ipynb" for Data Auditing.
+## Git Files
+● dataformat.py - python script to format data from movies_dataset.csv and fits into database
+● twitterScrap.py - python script to scrape data from twitter of specific movies
+● movies_dataset.csv - Original dataset used for database from https://data.world/
+● indian-movie-theaters.csv - dataset used for fetching data for theaters
+● plots.ipynb - graphs for data visualization
