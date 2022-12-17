@@ -8,8 +8,6 @@ Manashree Patel (002770365) - patel.manas@northeastern.edu
 
 Soham Deshpande (002752873) - deshpande.soha@northeastern.edu
 
-# Movie-Reservation-and-Recommendation-System
-
 ## Objective:
 
 The project's goal is to develop a movie reservation and recommendation system
