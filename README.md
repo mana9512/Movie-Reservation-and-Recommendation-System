@@ -1,3 +1,11 @@
+#MOVIE TICKET RESERVATION AND RECOMMENDATION SYSTEM
+ 
+Team Members
+ 
+Anshul Sharma (002789548) - sharma.ansh@northeastern.edu
+Manashree Patel (002770365) - patel.manas@northeastern.edu
+Soham Deshpande (002752873) - deshpande.soha@northeastern.edu
+
 # Movie-Reservation-and-Recommendation-System
 
 ## Objective:
